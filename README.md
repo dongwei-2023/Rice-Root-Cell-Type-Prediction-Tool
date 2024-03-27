@@ -19,6 +19,7 @@ Application of our model to new rice root data
 ## System Requirements
 ### Hardware Requirements
 A computer with the following specs:
+
 RAM : 16 + GB
 
 CPU : 8 + cores
