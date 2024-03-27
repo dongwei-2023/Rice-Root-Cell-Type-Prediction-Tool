@@ -4,6 +4,9 @@
 Rice-Root-Cell-Type-Prediction-Tool is a machine learning based approach to predict cell type of cells in root of rice
 
 Current version: 22 November 2023 v0.1
+### Supported Species and reference genomes
+
+Oryza Sativa: [Os-Nipponbare-Reference-IRGSP-1.0]
 
 Rice-Root-Cell-Type-Prediction-Tool pipeline
 
@@ -33,12 +36,10 @@ optuna : 3.4.0
 
 sklearn : 1.0.2
 
-Supported Species and reference genomes
-
-Oryza Sativa: [Os-Nipponbare-Reference-IRGSP-1.0]
 
 ## Example : 
 Input : Input of expression matrix, including "barcodes.tsv.gz"  "features.tsv.gz"  "matrix.mtx.gz" files.
+
 Output ： The output is a text file of the cell's barcode and Predicted Label
 ``` Bash
 python predict_cellType.py -i "./matrix" -o "./out" -m "./Rice-Root-Cell-Type-Prediction-Tool_Best_Model.pkl"
