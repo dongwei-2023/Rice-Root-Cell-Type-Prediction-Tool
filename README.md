@@ -37,6 +37,8 @@ optuna : 3.4.0
 
 sklearn : 1.0.2
 
+catboost : 1.2.2
+
 
 ## Example : 
 Input : Input of expression matrix, including "barcodes.tsv.gz"  "features.tsv.gz"  "matrix.mtx.gz" files.
