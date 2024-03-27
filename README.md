@@ -1,7 +1,7 @@
 # Rice-Root-Cell-Type-Prediction-Tool
 
 ## Overview
-Rice-Root-Cell-Type-Prediction-Tool is a machine learning based approach to predict cell type of cells in root of rice
+Rice-Root-Cell-Type-Prediction-Tool is a machine learning based approach to predict cell type of cells in root of rice.
 
 Current version: 22 November 2023 v0.1
 
@@ -44,7 +44,7 @@ This tool we developed and tested on linux.
 ## Example : 
 >  Input : Input of expression matrix, including "barcodes.tsv.gz"  "features.tsv.gz"  "matrix.mtx.gz" files.
 
->  Output ： The output is a text file of the cell's barcode and Predicted Label
+>  Output ： The output is a text file of the cell's barcode and Predicted Label.
 ``` Bash
 python predict_cellType.py -i "./matrix" -o "./out" -m "./Rice-Root-Cell-Type-Prediction-Tool_Best_Model.pkl"
 ```
