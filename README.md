@@ -7,7 +7,7 @@ Current version: 22 November 2023 v0.1
 
 ### Supported Species and reference genomes
 
-  Oryza Sativa: [Os-Nipponbare-Reference-IRGSP-1.0]
+"\t"Oryza Sativa: [Os-Nipponbare-Reference-IRGSP-1.0]
 
 Rice-Root-Cell-Type-Prediction-Tool pipeline : 
 
@@ -21,7 +21,7 @@ Application of our model to new rice root data :
 ### Hardware Requirements
 A computer with the following specs:
 
-  RAM : 16 + GB
+"\t"RAM : 16 + GB
 
   CPU : 8 + cores
 
